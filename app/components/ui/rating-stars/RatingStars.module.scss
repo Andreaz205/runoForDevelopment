@@ -1,0 +1,11 @@
+.stars {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100px;
+  color: #303030;
+
+  .fill {
+    color: yellow;
+  }
+}

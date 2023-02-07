@@ -1,0 +1,49 @@
+.hitsSliderHead{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  .header{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 130%;
+    /* identical to box height, or 65px */
+    color: #303030;
+
+  }
+
+  .content{
+    margin-top: 40px;
+    max-width: 900px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 130%;
+    /* or 30px */
+
+    text-align: center;
+
+    color: #C6C6C6;
+  }
+}
+
+.popularTitle{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 130%;
+  color: #303030;
+  text-align: center;
+}
+
+.salesTitle{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 130%;
+  color: #303030;
+  text-align: center;
+}

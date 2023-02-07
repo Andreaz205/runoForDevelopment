@@ -1,0 +1,10 @@
+.image{
+  margin: 5px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+
+  >img{
+    object-fit: contain;
+  }
+}

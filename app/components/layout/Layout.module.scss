@@ -1,0 +1,14 @@
+.superWrapper{
+  margin-top:130px;
+
+  .mainWrapper{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.transformTop{
+  transition: .3s ease-in-out;
+  transform: translateY(85px);
+}

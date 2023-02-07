@@ -1,0 +1,19 @@
+.lineImageWrapper{
+  margin-top: 10px;
+
+
+  .image{
+    position: relative;
+    aspect-ratio: 1;
+    background: #EDEDED;
+
+    >img{
+      object-fit: contain;
+      pointer-events: none;
+    }
+  }
+}
+
+.active{
+  border: 2px solid red;
+}

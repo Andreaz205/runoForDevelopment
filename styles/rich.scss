@@ -1,0 +1,97 @@
+.XL{
+  width: 100%;
+}
+.L{
+  width: 75%;
+}
+.M{
+  width: 50%;
+}
+.S{
+  width: 25%;
+}
+
+.size-1{
+  font-size: 12px;
+}
+.size-2{
+  font-size: 14px;
+}
+.size-3{
+  font-size: 16px;
+}
+.size-4{
+  font-size: 18px;
+}
+.size-5{
+  font-size: 20px;
+}
+.size-6{
+font-size: 24px;
+ }
+.size-7{
+font-size: 26px;
+}
+
+.rich-align-center{
+  text-align: center;
+}
+.rich-align-right{
+  text-align: right;
+}
+
+.rich-color-black{
+  color: black;
+}
+
+.rich-color-lightgray{
+  color: rgb(107 114 128);
+}
+
+.rich-color-gray{
+  color: rgb(75 85 99);
+}
+
+.rich-color-white{
+  color: white;
+}
+
+
+
+
+
+.rich-wrapper{
+  margin: 20px 0;
+  .first-rich{
+    .image-wrapper{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img{
+        border-radius: 5px;
+      }
+    }
+    .header{
+      margin: 20px 0;
+    }
+    .content{
+
+    }
+  }
+  .second-rich{
+    margin: 20px 0;
+    .image-wrapper{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img{
+        border-radius: 5px;
+      }
+    }
+    .header{
+      margin: 20px 0;
+    }
+  }
+}

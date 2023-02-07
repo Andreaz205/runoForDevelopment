@@ -1,0 +1,14 @@
+.wrapper{
+  width: 100%;
+  max-width: 1920px;
+}
+
+.bannerWrapper{
+  position: relative;
+  height: 500px;
+  width: 100%;
+
+  >img{
+    object-fit: cover;
+  }
+}

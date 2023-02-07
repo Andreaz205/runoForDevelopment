@@ -1,0 +1,44 @@
+.characteristics {
+  margin-top: 100px;
+  padding: 140px 50px;
+  background: #F4F4F4;
+  width: 100%;
+
+  .header{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 160%;
+    /* identical to box height, or 56px */
+    color: #303030;
+  }
+  .flexBlock{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    .leftBlock{
+      max-width: 680px;
+      width: 100%;
+
+      .sizes{
+        margin-bottom: 15px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 160%;
+        /* identical to box height, or 32px */
+        color: #303030;
+      }
+    }
+
+    .rightBlock{
+      max-width: 500px;
+      width: 100%;
+      border: 1px solid black;
+    }
+  }
+
+
+}

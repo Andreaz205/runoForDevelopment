@@ -1,0 +1,75 @@
+.hovered{
+  transition: 0.2s ease;
+  position: absolute;
+  top: -20px;
+  left: -5px;
+  background: white;
+  width: calc(100% + 10px);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  z-index: -1;
+
+
+  .verticalIndent{
+    margin-top: 20px;
+    width: calc(100% - 30px);
+    margin-left: 15px;
+    aspect-ratio: 16/9;
+  }
+
+  .popupContentWrapper{
+    padding: 0 20px;
+
+    .sizeTitle{
+      margin-top: 40px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 130%;
+      /* identical to box height, or 26px */
+      color: #303030;
+    }
+
+    .cartButton{
+      display: block;
+      margin: 30px auto 0 auto;
+      width: 180px;
+      height: 40px;
+      border: 1px solid #303030;
+      background: white;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 130%;
+      /* or 23px */
+      color: #303030;
+
+      &:hover{
+        background: #303030;
+        color: white;
+      }
+    }
+
+    .details{
+      text-align: center;
+      margin: 20px auto 50px auto;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 130%;
+      /* identical to box height, or 21px */
+      text-decoration-line: underline;
+      color: #C6C6C6;
+    }
+  }
+
+}
+
+.active{
+  opacity: 1;
+  z-index: 2;
+}

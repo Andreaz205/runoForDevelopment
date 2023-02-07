@@ -1,0 +1,18 @@
+.scrollbar{
+  margin: 10px 0 ;
+  height: 1px;
+  width: 100%;
+  max-width: 1920px;
+  background: rgba(238,238,238,0.93);
+  position: relative;
+  transition: all 0.3s ease;
+  overflow: hidden;
+
+  .bar{
+    height: 1px;
+    background: black;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease;
+  }
+}

@@ -1,0 +1,16 @@
+.icon{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding-bottom: 4px;
+
+  .number{
+    position: absolute;
+    color: white;
+    z-index: 1;
+    font-size: 8px;
+    pointer-events: none;
+  }
+}

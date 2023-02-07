@@ -1,0 +1,33 @@
+.wrapper{
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  column-gap: 200px;
+  align-items: center;
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
+  @media (max-width: 500px) {
+    margin: 0;
+  }
+
+  .image{
+    position: relative;
+    height: 400px;
+    min-width: 600px;
+    @media (max-width: 500px) {
+      aspect-ratio: 1;
+        width: 100%;
+        height: auto;
+        min-width: auto;
+    }
+
+    >img{
+      object-fit: cover;
+    }
+  }
+
+  .content{
+
+  }
+}

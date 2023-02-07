@@ -1,0 +1,78 @@
+.popup{
+  position: absolute;
+  z-index: 10;
+  width: 800px;
+  height: 500px;
+  background: white;
+  border-radius: 20px;
+  bottom: -470px;
+  left: -300px;
+  box-shadow: 2px 2px 5px grey;
+  overflow: hidden;
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    right: 5px;
+    color: grey;
+  }
+
+
+  &::-webkit-scrollbar-track {
+    background-color: rgba(110, 109, 109, 0.1);
+    border-radius: 40px;
+    margin: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: lightgrey;
+    border-radius: 40px;
+  }
+
+  .searchInput{
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 20px;
+    border: 1px solid grey;
+
+    >input{
+      height: 20px;
+      margin: 3px 10px;
+      width: 90%;
+      font-size: 16px;
+      border: none;
+      outline: none;
+    }
+
+    >button{
+      background: white;
+      border: none;
+      cursor: pointer;
+      margin: 3px 10px;
+      >svg{
+        font-size: 16px;
+      }
+    }
+  }
+
+  .content{
+    padding: 10px;
+
+    .skeleton{
+      height: 40px;
+      margin-bottom: 10px;
+    }
+  }
+
+
+  .searchedItems{
+    //&::-webkit-scrollbar {
+    //  width: 100px;
+    //}
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

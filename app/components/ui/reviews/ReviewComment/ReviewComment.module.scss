@@ -1,0 +1,39 @@
+.comment{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid grey;
+
+  .userInfo{
+    width: 15%;
+  }
+  .content{
+    width: 70%;
+
+    .commentImages{
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+  .dateMark{
+    width: 15%;
+
+    .date{
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+
+    .stars{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-wrap: nowrap;
+      .star{
+        margin: 4px;
+        color: rgb(255, 214, 64);
+      }
+    }
+  }
+}

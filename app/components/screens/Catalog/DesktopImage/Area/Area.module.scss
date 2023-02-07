@@ -1,0 +1,15 @@
+.area{
+  position: relative;
+
+  .decoration{
+    width: 98%;
+    height: 1px;
+    background: grey;
+    position: absolute;
+    bottom: -10px;
+  }
+
+  .active{
+    background: black;
+  }
+}

@@ -1,0 +1,25 @@
+.wrapper{
+  width: 100%;
+  background-color: #c6c6c6;
+
+  .flexWrapper{
+    padding: 5px 70px;
+    display: flex;
+
+    margin: 0 auto;
+    max-width: 1920px;
+    justify-content: space-between;
+
+    .leftBlock{
+      display: flex;
+      justify-content: space-between;
+      column-gap: 20px;
+    }
+
+    .rightBlock{
+      display: flex;
+      justify-content: space-between;
+      column-gap: 20px;
+    }
+  }
+}

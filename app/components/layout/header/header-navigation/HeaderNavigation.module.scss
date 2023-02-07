@@ -1,0 +1,17 @@
+.navigationSearchWrapper{
+  height: 100%;
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+
+  .navigationWrapper {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+  }
+}

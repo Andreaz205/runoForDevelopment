@@ -1,0 +1,19 @@
+.about {
+  width: 160px;
+  height: 40px;
+  margin-top: 20px;
+  border: 1px solid #303030;
+  background: white;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 23px */
+  color: #303030;
+
+  &:hover {
+    color: white;
+    background: #303030;
+  }
+}

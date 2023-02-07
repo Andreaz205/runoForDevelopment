@@ -1,0 +1,47 @@
+.arrowsWrapper{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+
+  .arrowsBlock{
+    position: relative;
+    width: 90px;
+    height: 100%;
+
+    .arrowLeft{
+      height: 40px;
+      width: 40px;
+      border: 1px solid black;
+      border-radius: 20px;
+      position: absolute;
+      top: 0;
+      left:0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover{
+        opacity: 60%;
+      }
+    }
+
+    .arrowRight{
+      height: 40px;
+      width: 40px;
+      border: 1px solid black;
+      border-radius: 20px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover{
+        opacity: 60%;
+      }
+    }
+  }
+}

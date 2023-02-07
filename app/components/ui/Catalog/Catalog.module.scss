@@ -1,0 +1,62 @@
+.wrapper{
+  padding: 0 50px;
+  max-width: 1920px;
+  margin: 0 auto;
+
+  button{
+    cursor: pointer;
+  }
+
+  .filters{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 40px;
+
+    .filterButton{
+      padding: 8px 14px;
+      background: none;
+      border: 1px solid #303030;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 130%;
+      /* or 23px */
+      color: #303030;
+    }
+
+    .black{
+      background: #303030;
+      color: white;
+    }
+  }
+  .line{
+    height: 1px;
+    width: 100%;
+    background: #C6C6C6;
+    margin-top: 60px;
+  }
+
+  .catalogItems{
+    margin-top: 100px;
+
+  }
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 150px;
+
+  >span{
+    margin: auto auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 130%;
+    /* identical to box height, or 65px */
+    color: #303030;
+  }
+}

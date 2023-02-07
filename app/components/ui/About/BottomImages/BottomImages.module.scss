@@ -1,0 +1,58 @@
+.wrapper {
+  white-space: nowrap;
+  @media (max-width: 1000px) {
+    white-space: normal;
+
+  }
+  .item{
+    vertical-align: top;
+    width: 33.33%;
+    padding: 50px;
+    display: inline-block;
+    align-content: start;
+    aspect-ratio: 1;
+    @media (max-width: 1000px) {
+      width: 100%;
+    }
+
+
+    >a {
+      aspect-ratio: 16/9;
+      display: block;
+      position: relative;
+
+      >img{
+        object-fit: cover;
+      }
+    }
+
+    .content {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      flex-direction: column;
+      white-space: normal;
+      aspect-ratio: 16/7;
+    }
+  }
+}
+
+.active {
+  pointer-events: none;
+}
+
+.notActive {
+  &:after { content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.3);
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  &:hover:after {
+    opacity: 0;
+  }
+}

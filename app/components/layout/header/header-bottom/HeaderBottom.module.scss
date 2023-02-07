@@ -1,0 +1,72 @@
+.bottomWrapper{
+  border-bottom: 1px solid rgba(248, 248, 248, 0.82);
+  position: absolute;
+  bottom: -50px;
+  background-color: white;
+  width: 100%;
+  z-index: 0;
+
+  .bottom{
+    margin: 0 auto;
+    height: 50px;
+
+    width: 100%;
+    position: relative;
+
+    .bottomBlock{
+      height: 100%;
+      margin: 0 auto;
+      max-width: 1920px;
+      padding: 0 70px;
+
+
+      .linksBlock{
+        height: 100%;
+        display: flex;
+        column-gap: 20px;
+
+
+        .link{
+          height:100%;
+          display: flex;
+          align-items: center;
+          &:hover{
+
+          }
+        }
+      }
+    }
+
+    .active{
+      border-bottom: 1px solid black;
+      padding-bottom: 5px;
+    }
+
+
+    .details{
+      visibility: hidden;
+      z-index: 4;
+      height: 500px;
+      position: absolute;
+      bottom: -500px;
+      left: 0;
+      background: #fff;
+      width: 100%;
+
+      .detailsBlock{
+        padding: 0 70px;
+        display: flex;
+        max-width: 1920px;
+        margin: 0 auto;
+
+      }
+    }
+
+    .visible{
+      visibility: visible;
+    }
+
+  }
+
+}
+

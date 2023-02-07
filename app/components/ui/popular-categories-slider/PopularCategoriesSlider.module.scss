@@ -1,0 +1,14 @@
+.wrapper{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+    .head{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 130%;
+        /* identical to box height, or 65px */
+        color: #303030;
+    }
+}

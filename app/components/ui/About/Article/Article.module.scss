@@ -1,0 +1,11 @@
+.article {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  >span{
+    text-align: center;
+    width: 60%;
+  }
+}

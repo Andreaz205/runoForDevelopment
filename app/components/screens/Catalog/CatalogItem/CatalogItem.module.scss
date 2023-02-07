@@ -1,0 +1,34 @@
+.catalogItem{
+  position: relative;
+  display: inline-block;
+  padding: 0 calc(30px/2) 50px;
+  width: calc(100%/4);
+
+  @media (max-width: 1400px) {
+    width: calc(100%/3);
+  }
+
+  @media (max-width: 1000px) {
+    width: calc(100%/2);
+  }
+
+  .content{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+    .image{
+      cursor: pointer;
+      width: 100%;
+      aspect-ratio: 16/9;
+      background: #F0EBEB;
+      position: relative;
+    }
+
+    .active{
+      z-index: 1;
+    }
+  }
+}

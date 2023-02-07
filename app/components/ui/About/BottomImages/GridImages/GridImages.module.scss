@@ -1,0 +1,54 @@
+.container{
+  width: 100%;
+  padding: 50px 200px;
+  @media screen  and (max-width: 1000px){
+    padding: 50px 50px;
+  }
+
+  .images{
+    aspect-ratio: 14/16;
+    display: grid;
+    grid-template-areas:
+            "a b"
+            "c b"
+            "c d";
+    grid-gap: 15px;
+    @media screen  and (max-width: 1000px){
+      aspect-ratio: 1;
+      grid-template-areas:
+            "a b"
+            "c d";
+      grid-gap: 10px;
+    }
+
+    @media screen  and (max-width: 500px){
+      aspect-ratio: 1/4;
+      grid-template-areas:
+            "a"
+            "b"
+            "c"
+            "d";
+      grid-gap: 10px;
+    }
+  }
+  img{
+    object-fit: cover;
+  }
+  .firstArea{
+    grid-area: a;
+    position: relative;
+
+  }
+  .secondArea{
+    grid-area: b;
+    position: relative;
+  }
+  .thirdArea{
+    grid-area: c;
+    position: relative;
+  }
+  .fourthArea{
+    grid-area: d;
+    position: relative;
+  }
+}

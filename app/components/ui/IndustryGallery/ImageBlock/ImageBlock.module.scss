@@ -1,0 +1,44 @@
+.block{
+  aspect-ratio: 16/6;
+  display: grid;
+  grid-template-columns: 1fr;
+
+
+  .container{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 600px){
+      padding: 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .image{
+      position: relative;
+      height: 100%;
+      width: 48%;
+      @media (max-width: 600px){
+        aspect-ratio: 16/9;
+        margin: 20px 0;
+      }
+      >img{
+        object-fit: cover;
+        @media (min-width: 600px) and (max-width: 800px){
+          object-fit: contain;
+        }
+      }
+    }
+
+    .text {
+      width: 48%;
+      @media (max-width: 600px){
+        width: 100%;
+      }
+    }
+  }
+
+}

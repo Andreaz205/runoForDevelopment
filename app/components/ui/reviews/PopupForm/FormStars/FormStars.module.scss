@@ -1,0 +1,23 @@
+.container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+
+  .star{
+    cursor: pointer;
+    margin: 5px;
+    &:not(.active) {
+      &:hover{
+        color: yellow;
+        opacity: 0.3;
+      }
+    }
+  }
+
+  .active{
+    >svg{
+      color: yellow;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.icon{
+  position: relative;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  svg{
+    font-size: 20px;
+  }
+
+  &:hover{
+    .loginBar{
+      background-color: #c6c6c6;
+      visibility: visible;
+      position: absolute;
+      right: 0;
+      bottom: -50px;
+      width: 250px;
+      height: 50px;
+      cursor: pointer;
+    }
+  }
+  .loginBar{
+    visibility: hidden;
+    position: absolute;
+    >a{
+      color: blue;
+    }
+    //right: 0;
+    //bottom: -50px;
+    //width: 250px;
+    //height: 50px;
+  }
+
+  .filled{
+    fill: black;
+  }
+}

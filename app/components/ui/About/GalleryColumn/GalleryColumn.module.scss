@@ -1,0 +1,12 @@
+.column{
+  margin: 0 150px;
+  @media (max-width: 500px) {
+    margin: 0;
+  }
+
+  .gallery{
+    .image{
+      position: relative;
+    }
+  }
+}

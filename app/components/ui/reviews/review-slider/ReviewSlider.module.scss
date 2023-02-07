@@ -1,0 +1,41 @@
+.sliderWrapper{
+  width: 100%;
+  overflow: hidden;
+  user-select: none;
+  margin-bottom: 40px;
+  .sliderList{
+
+    .sliderItems{
+      transform: translateX(0);
+      white-space: nowrap;
+      user-select: none;
+
+      .sliderItem{
+        display: inline-block;
+        width: 420px;
+        height:300px;
+        margin: 20px 20px 20px 0;
+        cursor: pointer;
+        position: relative;
+
+        .slideWrapper{
+          pointer-events: none;
+          width: 100%;
+          height: 250px;
+
+          .sliderImageWrapper{
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            overflow: hidden;
+
+            >img{
+              height: 100%;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

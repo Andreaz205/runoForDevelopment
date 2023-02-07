@@ -1,0 +1,25 @@
+.main {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 70px;
+
+  .separator{
+    height: 1px;
+    width: 100%;
+    background: rgba(48, 48, 48, 0.1);
+  }
+
+  .menu {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    .link{
+
+    }
+    .active {
+      font-weight: bold;
+    }
+  }
+}

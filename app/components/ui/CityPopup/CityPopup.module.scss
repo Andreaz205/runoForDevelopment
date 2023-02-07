@@ -1,0 +1,28 @@
+.wrapper{
+  position: fixed;
+  background: black;
+  opacity: 0.4;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.popupContainer{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .popup{
+    width: 500px;
+    height: 500px;
+    background: white;
+  }
+}

@@ -1,0 +1,31 @@
+.search{
+  border-radius: 15px;
+  height: 30px;
+  width: 200px;
+  position: relative;
+  border: 1px solid #c6c6c6;
+
+  >input{
+    position: absolute;
+    height: 22px;
+    width: 150px;
+    top:2px;
+    right: 10px;
+    border: none;
+    outline: none;
+  }
+
+  >button {
+    > svg {
+      font-size: 18px;
+      //fill: #6c6c6c
+    }
+    position: absolute;
+    top: 3px;
+    left: 4px;
+
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+  }
+}

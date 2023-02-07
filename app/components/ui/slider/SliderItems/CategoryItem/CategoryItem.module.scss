@@ -1,0 +1,53 @@
+.sliderItem{
+  display: inline-block;
+  width: 420px;
+  height:350px;
+  margin: 20px 20px 20px 0;
+  cursor: pointer;
+
+  .slideWrapper{
+    pointer-events: none;
+    width: 100%;
+    height: 250px;
+
+    .sliderImageWrapper{
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+
+      .title{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+      }
+
+      .priceBlock{
+        position: absolute;
+        width: 100%;
+        bottom: 10px;
+        display: flex;
+        justify-content: center;
+
+        .price{
+          padding: 10px;
+          background: white;
+          border-radius: 20px;
+          box-shadow: 0 0 5px black
+        }
+      }
+
+
+
+      >img{
+        height: 100%;
+        width: 100%;
+      }
+
+    }
+
+
+  }
+}
+
